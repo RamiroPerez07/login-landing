@@ -1,2 +1,7 @@
 # login-landing
-<p>En este mini-proyecto aplico algunas herramients de CSS: Flexbox, animaciones y box-model.<p>
+<p style="{color:blue}">En este mini-proyecto aplico algunas herramients de CSS:<p>
+<ul>
+  <li>Flexbox</li>
+  <li>Animaciones</li>
+  <li>Box-model</li>
+</ul>

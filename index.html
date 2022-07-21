@@ -11,23 +11,21 @@
     <div class="container">
         <div class="sub-container">
             <header>
-                <img class="avatar" src="./img/logo.png"/>
+                <img class="avatar" src="./img/logo.png" alt="logo-sign-in"/>
                 <p class="title">Iniciar Sesión</p>   <!--Ya que google penaliza el uso de los h-->
             </header>
-            <section class="forms">
-                <form>
-                    <div class="input-data">
-                        <input class="email" type="email" id="email" name="email" placeholder="Email"/>
-                        <input class="password" type="password" id="contraseña" name="contraseña" placeholder="Contraseña"/>
-                    </div>
-                    <div class="button-enter">
-                        <input type="submit" value="ENTRAR"/>
-                    </div>
-                    <div class="recover-password">
-                        <input type="button" value="Olvide mi password" >
-                    </div>
-                </form>
-            </section>
+
+            <form class="sign-in-form">
+                <div class="input-data">
+                    <input class="email entry-style1" type="email" id="email" name="email" placeholder="Email"/>
+                    <input class="password entry-style1" type="password" id="contraseña" name="contraseña" placeholder="Contraseña"/>
+                </div>
+                <div class="btn-container">
+                    <input class="btn-style1 btn-fx1" type="submit" value="Entrar"/>
+                    <input class="btn-style2" type="button" value="Olvide mi password" >
+                </div>
+            </form>
+
         </div>
     </div>
     
